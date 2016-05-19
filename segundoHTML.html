@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Segundo HTML</title>
+	<style>
+		.parrafo{
+			text-transform: capitalize;
+			white-space: pre-wrap;
+			text-align: justify;
+			letter-spacing: 1px;
+			font-family: arial;
+		}
+
+		h1{
+			text-shadow: 3px 3px 10px blue, -3px -3px 10px red;
+		}
+
+		.p2{
+			font-weight: bold;
+		}
+
+		ul{
+			list-style-type: circle;
+			list-style-position: inside;
+			list-style-image: url('accept.png');
+		}
+
+		.img{
+			width: 100%;
+			height: 300px;
+			/*border: 10px dotted black;*/
+			border: solid 1px;
+			background-image: url('sql_joins.jpg');
+			background-repeat: no-repeat;
+			/*overflow: scroll;*/
+			background-attachment: fixed;
+			background-position: 50% 100%;
+			background-origin: border-box;
+		}
+
+		.borderImg{
+			border: 10px solid transparent;
+		    padding: 15px;
+		    -webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+		    -o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
+		    border-image: url(border.png) 30 round;
+		}
+
+		.div-menu{
+			margin: 0;
+			padding: 0;
+			background-color: red;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			height: 50px;
+		}
+
+		body{
+			margin: 0px;
+		}
+	
+		/*Investigar como usar el display: flex; en w3schools*/
+		.container{
+			margin-top: 70px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="div-menu"></div>
+
+	<div class="container">
+		<h1>Titulo</h1>
+	
+		<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates alias, vero, eos perferendis porro maxime maiores minima velit labore beatae voluptatem corporis, neque sint natus impedit laboriosam qui assumenda nisi.</p>
+		
+		<p class="parrafo p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis delectus nam impedit aut eius eaque perspiciatis laudantium vero officia vel repellendus placeat, vitae amet neque. Quia animi ipsum ipsa aperiam.</p>
+		
+		<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, autem deserunt nostrum esse harum, incidunt blanditiis, nesciunt illo at repellendus laborum. Facilis eveniet dignissimos eos dicta earum assumenda, libero aspernatur.</p>
+
+		<ul>
+			<li>Elemento 1</li>
+			<li>Elemento 2</li>
+			<li>Elemento 3</li>
+			<li>Elemento 4</li>
+			<li>Elemento 5</li>
+		</ul>
+
+
+		<div class="img"></div>
+		
+		<br><br>
+
+		<div class="borderImg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ipsam, nobis consectetur deleniti delectus assumenda necessitatibus, rem voluptates id at nam labore officia culpa voluptate laboriosam rerum sunt obcaecati odio.</p>
+		</div>
+	</div>
+</body>
+</html>
